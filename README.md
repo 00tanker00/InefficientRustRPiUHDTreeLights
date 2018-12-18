@@ -7,6 +7,7 @@
 
 -https://crates.io/crates/rgb
 
+#binary included (though you really shouldn't run it) is compiled for RPi3B.
 
 #This will use rust to run pixel changes (easily changeable with RGB values using this example) on the RPi Pimoroni UnicornHat HD model.
 
