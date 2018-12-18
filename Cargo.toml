@@ -1,9 +1,10 @@
 [package]
-name = "uhd"
+name = "treelights"
 version = "1.0.0"
 authors = ["Tanker"]
 edition = "2018"
 
 [dependencies]
-unicorn_hat_hd = "0.2"
+unicorn_hat_hd = "0.2.1"
 rgb = "0.8.11"
+rand = "0.6.1"
