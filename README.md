@@ -307,7 +307,7 @@ pub fn main() {
             
             loop {
 		let _xmas = RED;
-		let thirty_millis = time::Duration::from_millis(350);
+		let threefitty_millis = time::Duration::from_millis(350);
 		let now = time::Instant::now();
 		
 		hat_hd.set_pixel(9, 1, _xmas);
@@ -334,8 +334,8 @@ pub fn main() {
 		hat_hd.set_rotation(unicorn_hat_hd::Rotate::RotCW90);
 		hat_hd.display().unwrap();
 
-		thread::sleep(thirty_millis);
-		assert!(now.elapsed() >= thirty_millis);
+		thread::sleep(threefitty_millis);
+		assert!(now.elapsed() >= threefitty_millis);
 		
 
 		let _xmas2 = BLUE;
@@ -363,8 +363,8 @@ pub fn main() {
 		hat_hd.set_rotation(unicorn_hat_hd::Rotate::RotCW90);
 		hat_hd.display().unwrap();
 		
-		thread::sleep(thirty_millis);
-		assert!(now.elapsed() >= thirty_millis);
+		thread::sleep(threefitty_millis);
+		assert!(now.elapsed() >= threefitty_millis);
             }
             //hat_hd.set_rotation(unicorn_hat_hd::Rotate::RotCW90);
             //hat_hd.display().unwrap();
